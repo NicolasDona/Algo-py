@@ -16,7 +16,7 @@ else:
     if cop_numb <= 30:
         cout_total += (cop_numb - 10) * 0.09
     else:
-        cout_total += 20 * 0.09 
+        cout_total += 20 * 0.09
 
         # +30
         cout_total += (cop_numb - 30) * 0.08
