@@ -1,0 +1,7 @@
+i = int(input("Donne-moi un chiffre entre 1 et 3 : "))
+
+while i > 3 or i < 1:
+    print("Le chiffre que vous avez donné n'est pas entre 1 et 3.")
+    i = int(input("Donne-moi un chiffre entre 1 et 3 : "))
+
+print("Merci, vous avez donné un chiffre valide :", i)
