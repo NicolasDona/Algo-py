@@ -1,6 +1,0 @@
-
-nb_start = int(input("Entrez un nombre : "))
-
-# boucle for
-for i in range(nb_start + 1, nb_start + 11):
-    print(i)

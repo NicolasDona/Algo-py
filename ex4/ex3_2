@@ -1,7 +1,0 @@
-nb_start = int(input("Entrez un nombre de départ : "))
-
-count = 1
-
-while count <= 10:
-    print(nb_start + count)
-    count += 1

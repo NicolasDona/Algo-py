@@ -8,7 +8,7 @@ elif 1 <= age <= 7:
 elif 10 <= age <= 11:
     cat = "Poussin"
 elif 12 <= age <= 13:
-    cat = "Benjamine/Benjamin"
+    cat = "Benjamin"
 elif 14 <= age <= 15:
     cat = "Minime"
 elif 16 <= age <= 17:
@@ -19,6 +19,9 @@ elif 20 <= age <= 39:
     cat = "Sénior"
 else:
     cat = "Vétérane/Vétéran"
+    
+    # if(age >= 8 and age <=9)
+    # category = "Microbe" 
 
 
 print(f"Votre catégorie est : {cat}")

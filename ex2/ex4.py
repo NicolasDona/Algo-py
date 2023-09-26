@@ -1,6 +1,3 @@
-# exercice : Un magasin de reprographie facture 0,10 € l'unité les dix premières photocopies, 0,09 € les vingt suivantes et 0,08 € au-delà.
-
-
 cop_numb = int(input("Entrez le nombre de photocopies à effectuer : "))
 
 # Initialiser le coût total à 0
@@ -16,10 +13,10 @@ else:
     if cop_numb <= 30:
         cout_total += (cop_numb - 10) * 0.09
     else:
-        cout_total += 20 * 0.09
+        cout_total += 20 * 0.09  # Coût des 20 suivantes à 0.09 € chacune
 
         # +30
         cout_total += (cop_numb - 30) * 0.08
 
 # Afficher la facture correspondante
-print(f"Le coût total pour {cop_numb} photocopies est de {cout_total:.2f} €.")
+print(f"Le coût total pour {cop_numb} photocopies est de {cout_total} €.")
