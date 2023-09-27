@@ -5,3 +5,7 @@ language = ['Python', 'Javascript', 'Java', 'PHP', 'C++', 'Cobol']
 # index est la numérotation
 for index in range(len(language)):
     print(language[index])
+
+# for in
+# print
+# fonctionne aussi
